@@ -1,0 +1,8 @@
+body {
+    text-align: center
+}
+
+video {
+    height: auto!important;
+    max-width: 100%!important;
+}
