@@ -39,12 +39,12 @@ if (typeof document.addEventListener === "undefined" || hidden === undefined) {
     // When the video pauses, set the title.
     // This shows the paused
     videoElement.addEventListener("pause", function () {
-        document.title = 'Paused';
+        document.title = 'Paused video';
     }, false);
 
     // When the video plays, set the title.
     videoElement.addEventListener("play", function () {
-        document.title = 'Playing';
+        document.title = 'Playing video';
     }, false);
 
 }
